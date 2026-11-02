@@ -1,9 +1,9 @@
 ---
-name: read-with-maps
+name: adhd-love-reading
 description: Make dense Chinese or English reading passages easier to follow with adjustable-density, color-coded meaning cues and small relation maps. Use when a user asks to annotate, visually restructure, or make news, essays, books, explanatory text, or translated passages easier to read, especially for distractible readers.
 ---
 
-# 慢读小地图
+# 让ADHD热爱读书
 
 把用户给的文章变成可直接阅读的版本：短词组着色并在字下划线，关系草图放在读者需要它的地方。保留细节与原意，帮助读者抓住关系和继续往下读。不要声称它治疗 ADHD、提升阅读速度或修复大脑。
 
@@ -20,6 +20,14 @@ description: Make dense Chinese or English reading passages easier to follow wit
    - 长文包含多个不同的发展阶段或观点：正文保持完整行宽，段落或编号项下方直接放对应的小图；保持“读原文 → 看图 → 接着读”的顺序。不要让侧栏挤窄长文。
    - 不为凑数量画图。新闻图片说明和没有新增关系的过渡句无需独立图。
 7. **实际交付阅读界面。** 用户要“看看效果”“体验”时，优先用可用的会话可视化能力呈现可读、可交互的预览；遵守该渲染能力的规范。没有此能力时，创建一份可本地打开的单文件 HTML。除非用户只要规则或数据，避免仅描述方案。用白/蓝/灰为基础、低密度暖色点缀、适度圆角，正文至少 15px，清晰留白；简笔图重点画关系，不用装饰性图案塞满页面。
+
+## 阅读界面的首次使用规则
+
+- 对外显示名称为「让ADHD热爱读书」；它是产品愿景，不是效果承诺。新的调用名为 `adhd-love-reading`；旧版 `read-with-maps` 可作为自然语言提示识别，不作为当前指令入口。
+- 把主要体验入口放在首屏，使用清晰的大按钮，不藏在页脚说明中。
+- 公开试读提供故事、知识、观点三种文章入口，读者自由选择，直接进入默认辅助阅读。清楚提供原文切换与连续阅读，保留原文字句。不要加入答题、评分、阅读计时、随机分组或主持人设置；完成一篇后可选下一篇或返回目录。
+- 逐段阅读的上一段、下一段控件固定在可见视口内，为正文和手机安全区留出空间；最后一段给出明确的读完动作。连续阅读隐藏逐段控件，并禁用对应快捷键，避免误触跳动。
+- 演示样本首次打开从第一段开始。可保留字号等显示偏好，不默默恢复中间段落。独立试读无需采集或上传健康信息、行为数据。
 
 ## 输出前检查
 
