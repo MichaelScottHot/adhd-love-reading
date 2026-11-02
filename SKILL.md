@@ -1,6 +1,6 @@
 ---
 name: adhd-love-reading
-description: Make dense Chinese or English reading passages easier to follow with adjustable-density, color-coded meaning cues and small relation maps. Use when a user asks to annotate, visually restructure, or make news, essays, books, explanatory text, or translated passages easier to read, especially for distractible readers.
+description: 将中文或英文的书籍、新闻、知识和观点文章变成适合易分心读者的阅读界面：保留完整原文，用可调密度的短词组标记、逐段聚焦和关系小地图帮助理解与续读。用户提到 ADHD 阅读辅助、长文难读、视觉梳理或“让ADHD热爱读书”时使用；不宣称治疗效果。
 ---
 
 # 让ADHD热爱读书
