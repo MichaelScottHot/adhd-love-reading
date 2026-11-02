@@ -1,7 +1,7 @@
 interface:
   display_name: 让ADHD热爱读书
   short_description: 为长文标出有意义的短词组，并把关系草图放在最适合阅读的位置
-  default_prompt: 请用 $adhd-love-reading 把下面的文章做成可直接阅读的关键词标记与关系草图。
+  default_prompt: 请用 $adhd-love-reading 把下面的文章做成实际可看的阅读界面，原文内呈现彩色短词组和字下划线，并把关系图放在相应段落后。不要输出未渲染的 HTML 标签或仅用文字列表代替界面。
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
