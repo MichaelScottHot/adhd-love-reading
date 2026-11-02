@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>让ADHD热爱读书 · 阅读样张</title>
+<style>
+  :root { color-scheme: light; --ink:#18212d; --muted:#68788b; --line:#dce5ef; --blue:#1168d8; --coral:#cb584c; --amber:#a76b12; --focus:#eef6ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#fff; color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif; }
+  button { font:inherit; cursor:pointer; }
+  .shell { max-width:940px; margin:auto; padding:24px clamp(20px,5vw,64px) 120px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-bottom:20px; border-bottom:1px solid var(--line); }
+  .brand { font-size:14px; font-weight:650; letter-spacing:.02em; }
+  .mode { display:flex; gap:4px; background:#f1f4f8; padding:4px; border-radius:12px; }
+  .mode button { border:0; border-radius:9px; background:transparent; color:#536174; padding:8px 12px; font-size:13px; }
+  .mode button[aria-pressed="true"] { background:white; color:var(--blue); box-shadow:0 1px 5px #102e5518; }
+  h1 { margin:46px 0 8px; font-size:clamp(30px,5vw,52px); letter-spacing:-.025em; line-height:1.2; }
+  .sub { color:var(--muted); font-size:14px; margin-bottom:34px; }
+  .segment { position:relative; padding:20px 22px; border-left:3px solid transparent; border-radius:0 16px 16px 0; margin:18px 0 24px; }
+  .segment.active { background:var(--focus); border-left-color:var(--blue); }
+  .num { color:#7b8b9e; font-size:13px; display:block; margin-bottom:12px; }
+  .prose { margin:0; font-family:"Songti SC","Noto Serif CJK SC",serif; font-size:clamp(20px,2.4vw,25px); line-height:1.85; letter-spacing:.012em; }
+  .mark { text-decoration-line:underline; text-decoration-thickness:1.5px; text-underline-offset:5px; font-weight:600; }
+  .who { color:var(--blue); text-decoration-color:var(--blue); }
+  .doing { color:var(--coral); text-decoration-color:var(--coral); }
+  .why { color:var(--amber); text-decoration-color:var(--amber); }
+  .map { margin:2px 0 34px 22px; padding:20px; border:1px solid var(--line); border-radius:16px; background:#fbfcfe; }
+  .map-title { color:#445266; font-size:14px; font-weight:650; margin:0 0 14px; }
+  .nodes { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+  .node { padding:10px 13px; background:#fff; border:1px solid #d6e2ee; border-radius:10px; font-size:14px; }
+  .arrow { color:#7492b4; font-size:18px; }
+  .hint { color:var(--muted); margin:12px 0 0; font-size:12px; line-height:1.5; }
+  .sticky { position:fixed; left:0; right:0; bottom:0; background:#ffffffed; border-top:1px solid var(--line); backdrop-filter:blur(12px); padding:12px max(20px,calc((100vw - 812px)/2)); display:flex; gap:10px; align-items:center; }
+  .sticky button { border:1px solid var(--line); background:#fff; border-radius:12px; min-height:44px; padding:8px 20px; color:#314359; }
+  .sticky .next { background:var(--blue); border-color:var(--blue); color:white; flex:1; }
+  .sticky .count { color:var(--muted); font-size:13px; white-space:nowrap; }
+  body.original .mark { color:inherit; font-weight:inherit; text-decoration:none; }
+  body.original .map { display:none; }
+  body.continuous .segment { background:none; border-left-color:transparent; }
+  body.continuous .sticky { display:none; }
+  @media(max-width:620px) { .shell { padding-top:18px; } header { align-items:flex-start; flex-direction:column; } .segment { padding:14px 15px; } .map { margin-left:0; } .sticky { padding:10px 16px max(10px,env(safe-area-inset-bottom)); } }
+</style>
+</head>
+<body>
+<main class="shell">
+  <header><div class="brand">让ADHD热爱读书</div><div class="mode" aria-label="阅读方式">
+    <button type="button" id="assisted" aria-pressed="true">辅助阅读</button>
+    <button type="button" id="original" aria-pressed="false">原文</button>
+    <button type="button" id="continuous" aria-pressed="false">连续阅读</button>
+  </div></header>
+  <h1>一句话，怎么读出关系</h1>
+  <div class="sub">阅读样张 · 两段示意文字</div>
+  <section class="segment active"><span class="num">01</span><p class="prose">由于<span class="mark why">教师缺岗</span>，<span class="mark who">学生</span><span class="mark doing">罢课</span>；消息传播后，<span class="mark who">其他学校</span>也<span class="mark doing">加入</span>。</p></section>
+  <aside class="map" aria-label="第一段关系图"><p class="map-title">这场抗议如何扩散？</p><div class="nodes"><span class="node">教师缺岗</span><span class="arrow" aria-hidden="true">→</span><span class="node">学生罢课</span><span class="arrow" aria-hidden="true">→</span><span class="node">消息传播，其他学校加入</span></div><p class="hint">顺序来自这段示意文字；不把先后顺序自动解释为唯一因果。</p></aside>
+  <section class="segment"><span class="num">02</span><p class="prose">读者先看到<span class="mark who">发生变化的人</span>，再看到<span class="mark doing">发生了什么</span>，最后看清<span class="mark why">这一变化的处境</span>。</p></section>
+  <aside class="map" aria-label="第二段关系图"><p class="map-title">三个标记分别回答什么？</p><div class="nodes"><span class="node">谁：变化的人</span><span class="node">做什么：发生的事</span><span class="node">在哪种处境下：关键限定</span></div></aside>
+</main>
+<nav class="sticky" aria-label="逐段阅读"><button type="button" id="prev">上一段</button><span class="count" id="count">1 / 2</span><button type="button" class="next" id="next">下一段</button></nav>
+<script>
+  const segments=[...document.querySelectorAll('.segment')]; let current=0;
+  function focusSegment(index){ current=Math.max(0,Math.min(segments.length-1,index)); segments.forEach((el,i)=>el.classList.toggle('active',i===current)); document.getElementById('count').textContent=(current+1)+' / '+segments.length; document.getElementById('next').textContent=current===segments.length-1?'已读完':'下一段'; segments[current].scrollIntoView({block:'start',behavior:'smooth'}); }
+  document.getElementById('prev').addEventListener('click',()=>focusSegment(current-1));
+  document.getElementById('next').addEventListener('click',()=>focusSegment(current+1));
+  document.getElementById('original').addEventListener('click',()=>{document.body.classList.add('original');document.getElementById('original').setAttribute('aria-pressed','true');document.getElementById('assisted').setAttribute('aria-pressed','false');});
+  document.getElementById('assisted').addEventListener('click',()=>{document.body.classList.remove('original');document.getElementById('original').setAttribute('aria-pressed','false');document.getElementById('assisted').setAttribute('aria-pressed','true');});
+  document.getElementById('continuous').addEventListener('click',e=>{const on=document.body.classList.toggle('continuous');e.currentTarget.setAttribute('aria-pressed',String(on));});
+</script>
+</body>
+</html>
