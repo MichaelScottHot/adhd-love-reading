@@ -34,15 +34,11 @@
 
 **使用 Skill｜原文 + 视觉线索**
 
-> 昨夜的🟡大雨🟡使🟡山路湿滑🟡。为了避开山路，🔵林岚🔵🟠改走河边的小路🟠，因此🟡多花了一小时🟡，却仍在🟡天黑前🟡赶到村里。
+![让ADHD热爱读书的阅读样张：原文中有彩色短词组和字下划线，下方是大雨改变林岚路线的关系图](assets/reading-case.svg)
 
-**这一段的关系小地图**
+蓝色标人物，珊瑚色标行动，琥珀色标关键处境。标记直接落在原文字词上，不用符号插进句子；读完原文，再看下方的关系图。
 
-🔵 大雨 → 🟡 山路湿滑 → 🔵 林岚 🟠绕道 → 🟡 多花一小时，但仍在天黑前抵达
-
-🟦 人物 / 对象　🟠 动作 / 变化　🟡 重要处境 / 判断
-
-*这是虚构短例，用来展示标记和关系整理方式，不是阅读效果测试。*
+*这是虚构短例，只展示阅读版式，不是阅读效果测试。[也可以直接体验三篇交互试读](https://slow-reading-focus.may101hong.chatgpt.site/test)。*
 
 ## 阅读时会发生什么
 
@@ -72,6 +68,7 @@
 | [SKILL.md](SKILL.md) | Skill 的处理流程、阅读界面规则和检查项 |
 | [agents/openai.yaml](agents/openai.yaml) | Skill 展示名称与默认提示 |
 | [assets/icon.svg](assets/icon.svg) | Skill 图标 |
+| [assets/reading-case.svg](assets/reading-case.svg) | README 中的视觉阅读案例 |
 
 ## 使用边界
 
