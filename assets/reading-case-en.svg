@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="680" viewBox="0 0 1120 680" role="img" aria-labelledby="title desc">
+<title id="title">Make Reading Easier: visual reading sample</title>
+<desc id="desc">The full passage is preserved, with short color-coded underlined phrases. A relation map shows how heavy rain changed Lin Lan's route and arrival time.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#7796b7" stroke-width="1.7"/></marker></defs>
+<rect width="1120" height="680" rx="22" fill="#fff"/>
+<text x="76" y="66" fill="#172230" font-family="Arial, sans-serif" font-size="23" font-weight="600">Make Reading Easier</text>
+<text x="1045" y="66" text-anchor="end" fill="#1765c1" font-family="Arial, sans-serif" font-size="17">01 / 01 · Focus</text>
+<path d="M76 90 H1044" stroke="#e1e8f0"/>
+<rect x="54" y="127" width="1012" height="222" rx="20" fill="#eef6ff"/><rect x="54" y="127" width="5" height="222" rx="3" fill="#1765c1"/>
+<g font-family="Arial, sans-serif" font-size="27" fill="#172230">
+<text x="78" y="190">Last night's <tspan fill="#9c6712" font-weight="600" text-decoration="underline" text-underline-offset="5">heavy rain</tspan> made the <tspan fill="#9c6712" font-weight="600" text-decoration="underline" text-underline-offset="5">mountain road slippery</tspan>.</text>
+<text x="78" y="256">To avoid it, <tspan fill="#1765c1" font-weight="600" text-decoration="underline" text-underline-offset="5">Lin Lan</tspan> <tspan fill="#c65348" font-weight="600" text-decoration="underline" text-underline-offset="5">took</tspan> the path by the river, adding <tspan fill="#9c6712" font-weight="600" text-decoration="underline" text-underline-offset="5">an extra hour</tspan>,</text>
+<text x="78" y="322">but still <tspan fill="#c65348" font-weight="600" text-decoration="underline" text-underline-offset="5">reached</tspan> the village <tspan fill="#9c6712" font-weight="600" text-decoration="underline" text-underline-offset="5">before dark</tspan>.</text></g>
+<path d="M76 381 H1044" stroke="#e1e8f0"/>
+<text x="76" y="425" fill="#64748b" font-family="Arial, sans-serif" font-size="15">Follow the story from the passage to its key relationship</text>
+<rect x="54" y="448" width="1012" height="190" rx="18" fill="#f8fafc" stroke="#e0e7ef"/>
+<text x="78" y="486" fill="#172230" font-family="Arial, sans-serif" font-size="20" font-weight="600">How did the rain change Lin Lan's route?</text>
+<g font-family="Arial, sans-serif" font-size="19" fill="#172230" text-anchor="middle">
+<rect x="78" y="512" width="150" height="48" rx="12" fill="#fff" stroke="#d8e2ed"/><text x="153" y="543">Heavy rain</text>
+<path d="M238 536 H264" stroke="#7796b7" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="272" y="512" width="174" height="48" rx="12" fill="#fff" stroke="#d8e2ed"/><text x="359" y="543">Slippery road</text>
+<path d="M456 536 H482" stroke="#7796b7" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="490" y="512" width="260" height="48" rx="12" fill="#fff" stroke="#d8e2ed"/><text x="620" y="543">Lin Lan took the river path</text>
+<path d="M760 536 H786" stroke="#7796b7" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="794" y="512" width="220" height="48" rx="12" fill="#fff" stroke="#d8e2ed"/><text x="904" y="543">An extra hour</text></g>
+<text x="78" y="605" fill="#64748b" font-family="Arial, sans-serif" font-size="16">Even with the detour, she still arrived before dark.</text>
+<text x="1045" y="664" text-anchor="end" fill="#8694a5" font-family="Arial, sans-serif" font-size="12">Fictional sample · Layout only, not an outcome claim</text>
+</svg>
